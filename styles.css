@@ -1,0 +1,91 @@
+/* General body styling */
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #444;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the main heading */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the buttons */
+button {
+    margin: 15px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 8px 6px -6px black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #ffcc00;
+}
+
+/* Output spans for chosen words */
+span {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the final story output */
+#storyOutput {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #6a0dad;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* Styling for the random and reset buttons */
+#randomStoryBtn, #resetBtn {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#randomStoryBtn:hover, #resetBtn:hover {
+    background-color: #45a049;
+}
+
+/* Adding a nice hover effect for random and reset buttons */
+#randomStoryBtn:hover, #resetBtn:hover {
+    background-color: #ffcc00;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    #storyOutput {
+        font-size: 20px;
+    }
+}
